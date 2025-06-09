@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
+<!DOCTYPE html><html lang='fr'><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>H2oConnex</title>
@@ -17,7 +15,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bienvenue sur H2oConnex</h1>
-  <p>Site RFID pour l'hôtellerie.</p>
-</body>
-</html>
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo">H2oConnex</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+      <h1>Contactez-nous</h1>
+      <form action="https://formspree.io/f/mwkgrzwn" method="POST">
+        <label>Nom: <input type="text" name="name" required></label><br>
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Message: <textarea name="message" required></textarea></label><br>
+        <button type="submit">Envoyer</button>
+      </form>
+    </main></body></html>
